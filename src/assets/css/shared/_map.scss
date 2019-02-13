@@ -1,0 +1,34 @@
+.demomap_container::-webkit-scrollbar {
+    width: 3px;
+}
+
+.demomap_container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.demomap_container::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #294f8e;
+}
+
+.demomap_container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.demomap_list > li {
+    background-color: #293852;
+}
+
+.leaflet-pane {
+    z-index: 40 !important;
+}
+
+.leaflet-top, .leaflet-bottom {
+    z-index: 45 !important;
+}
+
+@media (min-width: 768px) {
+    .demomap_container{
+        height: 35rem;
+    }
+}
